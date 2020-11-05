@@ -8,9 +8,41 @@ namespace ObjektUppg2
 {
     class Program
     {
+        class DictEntry
+        {
+            public string swedish, english;
+
+            public DictEntry(string eng, string swe)
+            {
+                english = eng; 
+                swedish = swe;
+            }
+        }
+
         static void Main(string[] args)
         {
-
+            List<DictEntry> dict = new List<DictEntry>();
+            dict.Add(new DictEntry("head", "huvud"));
+            dict.Add(new DictEntry("see", "see"));
+            dict.Add(new DictEntry("father", "far, pappa"));
+            dict.Add(new DictEntry("tree", "träd"));
+            dict.Add(new DictEntry("moon", "måne"));
+            dict.Add(new DictEntry("move", "flytta"));
+            dict.Add(new DictEntry("city", "stad"));
+            Console.WriteLine("{0,-10}{1,-20}",
+                                        "english", "swedish");
+            Console.WriteLine("------------------");
+            for (int i = 0; i < dict.Count; i++)
+            {
+                if (dict[i] != null)
+                {
+                    Console.WriteLine("{0,-10}{1,-20}",
+                                        dict[i].english, dict[i].swedish);
+                }
+            }
+            Console.WriteLine("------------------");
+            Console.ReadKey();
         }
+        
     }
 }

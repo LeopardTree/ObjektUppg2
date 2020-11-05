@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjektUppg2", "ObjektUppg2.csproj", "{2B4C58F0-61CA-4962-A551-8552A03C3974}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "objekt2.3", "..\objekt2.3\objekt2.3.csproj", "{F8D75C2D-049F-45FD-A8A2-CF2CEB8486CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2B4C58F0-61CA-4962-A551-8552A03C3974}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B4C58F0-61CA-4962-A551-8552A03C3974}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B4C58F0-61CA-4962-A551-8552A03C3974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D75C2D-049F-45FD-A8A2-CF2CEB8486CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D75C2D-049F-45FD-A8A2-CF2CEB8486CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D75C2D-049F-45FD-A8A2-CF2CEB8486CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D75C2D-049F-45FD-A8A2-CF2CEB8486CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
